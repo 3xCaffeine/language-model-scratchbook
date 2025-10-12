@@ -134,9 +134,7 @@ def _(BASE_CONFIG, GPTModel, device, model_configs, profile, torch):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-        r"""Benchmark with automatic batch size finding and Model FLOP Utilization (MFU)"""
-    )
+    mo.md(r"""Benchmark with automatic batch size finding and Model FLOP Utilization (MFU)""")
     return
 
 
