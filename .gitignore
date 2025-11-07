@@ -11,3 +11,5 @@ wheels/
 working_with_text_data/bytepair-enc/gpt2
 model*.pth
 *.png
+
+gpt2-weights/
