@@ -1,4 +1,4 @@
-# LLM Scratchbook
+# language model scratchbook
 
 A comprehensive implementation of Language Models from first principles, covering the complete pipeline from text processing to model training and deployment.
 
