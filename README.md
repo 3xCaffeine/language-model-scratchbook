@@ -11,6 +11,8 @@ This project is a deep dive into the inner workings of modern language models, i
 ```
 llm-from-scratch/
 ├── attention_mechanisms/     # Various attention implementations
+├── chat_ui/                # Chainlit web interface for model interaction
+│   └── app.py            # Interactive chat interface with GPT-2 weights
 ├── deployment/               # Cloud deployment configurations
 ├── finetuning/             # Fine-tuning for specific tasks
 │   ├── classification/      # Sentiment analysis
@@ -59,6 +61,11 @@ llm-from-scratch/
 - Instruction fine-tuning (Alpaca GPT-4 dataset)
 - Baseline comparisons with traditional ML
 - Task-specific adaptations
+
+### Interactive Interface
+- Chainlit web interface for real-time model interaction
+- GPT-2 weight loading and text generation
+- User-friendly chat interface for model testing
 
 ### Deployment
 - Modal cloud deployment with GPU support

@@ -1,13 +1,15 @@
 [project]
-name = "llm-from-scratch"
+name = "llm-scratchbook"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "chainlit>=2.9.0",
     "datasets>=4.4.1",
     "galore-torch>=1.0",
     "huggingface-hub[hf-transfer]>=0.35.3",
+    "manim-slides[manim]>=5.5.2",
     "marimo[recommended]>=0.17.0",
     "matplotlib>=3.10.7",
     "modal>=1.2.1",
